@@ -82,6 +82,14 @@ body {
     width: 45%
 }
 
+.navbar-nav li:nth-child(1) {
+    margin: 0 10px 0 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
 .nav-item {
     margin: 0 10px;
 }
