@@ -512,7 +512,6 @@ section {
     text-align: center;
 }
 
-
 .footer__section p span {
     flex: 1;
 }
@@ -644,6 +643,6 @@ section {
     }
 
     .footer__section {
-        width: 60%;
+        width: 100%;
     }
 }
