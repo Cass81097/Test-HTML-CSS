@@ -44,6 +44,10 @@ body {
     margin-left: 20px;
 }
 
+.form-inline i::before {
+    font-size: 20px;
+}
+
 .navbar-slogan {
     font-weight: 400;
     font-size: 15px;
@@ -82,20 +86,21 @@ body {
     width: 45%
 }
 
-.navbar-nav li:nth-child(1) {
+.top-header-menu-nav li:nth-child(1) {
     margin: 0 10px 0 0;
 }
 
-.nav-item {
+.top-header-menu-nav {
     margin: 0 10px;
 }
 
-.nav-item {
-    margin: 0 10px;
+
+.navbar-nav li:nth-child(1) {
+    margin-left: unset
 }
 
 .navbar-nav li:nth-child(1) a {
-    padding-left: unset !important;
+    padding-left: unset !important
 }
 
 .top-header-brand-name-rp {
