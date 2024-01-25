@@ -520,8 +520,8 @@ section {
 }
 
 .footer__section p i {
-    margin-right: 10px;
-    width: 30px;
+    margin-right: 25px;
+    width: 10px;
     text-align: center;
 }
 
@@ -540,6 +540,10 @@ section {
     line-height: 26px;
     font-size: 15px;
     color: #1A1114;
+}
+
+.email-input {
+    width: 70%;
 }
 
 /* Responsive */
