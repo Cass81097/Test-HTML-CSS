@@ -341,6 +341,7 @@ section {
 
 .card__team-icon i {
     margin-right: 12px;
+    cursor: pointer;
 }
 
 /* Card Attributes */
