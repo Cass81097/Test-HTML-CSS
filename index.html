@@ -110,14 +110,14 @@
     <section>
         <div class="container">
             <div class="card__page">
-                <div class="card__page-title-about">About Us</div>
+                <div class="card__page-title-about"><span>About Us</span></div>
                 <div class="card__page-title-info">
                     <a href="" class="select">Home</a> <span>|</span>
                     <a href="">About</a>
                 </div>
-                <div class="card__cta row">
-                    <div class="card__cta-row col-12">
-                        <div class="card__cta-content rp col-md-6 col-sm-12">
+                <div class="card__cta">
+                    <div class="card__cta-row">
+                        <div class="card__cta-content rp">
                             <div class="card__cta-content-profile">
                                 <div class="card__cta-content-about">
                                     <span>
@@ -129,37 +129,39 @@
                                         Bring Exciting Moments Of Fun While Playing & Learning For Children.
                                     </span>
                                 </div>
-                                <button type="button" class="btn btn-danger">CONTACT US</button>
+                                <div class="card__cta-button">
+                                    <button type="button" class="btn btn-danger">CONTACT US</button>
+                                </div>
                             </div>
 
                         </div>
 
-                        <div class="card__cta-video rp col-md-6 col-sm-12">
+                        <div class="card__cta-video rp">
                             <img src="./assets/Elegant Clutch Purse.png" alt="">
                         </div>
                     </div>
                 </div>
 
                 <div class="card__proud">
-                    <div class="card__proud-row row">
+                    <div class="card__proud-row">
                         <div class="card__proud-title">What We Are Proud Of.</div>
-                        <div class="card__proud_infomation col-12">
-                            <div class="card__proud-total card__proud-modal col-md-3 col-sm-12">
+                        <div class="card__proud_infomation">
+                            <div class="card__proud-total card__proud-modal">
                                 <h1>20+</h1>
                                 <h5>Total top services</h5>
                                 <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
                             </div>
-                            <div class="card__proud-country card__proud-modal col-md-3 col-sm-12">
+                            <div class="card__proud-country card__proud-modal">
                                 <h1>15+</h1>
                                 <h5>Countries</h5>
                                 <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
                             </div>
-                            <div class="card__proud-feedback card__proud-modal col-md-3 col-sm-12">
+                            <div class="card__proud-feedback card__proud-modal">
                                 <h1>98%</h1>
                                 <h5>Positive Feedback</h5>
                                 <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
                             </div>
-                            <div class="card__proud-user card__proud-modal col-md-3 col-sm-12">
+                            <div class="card__proud-user card__proud-modal">
                                 <h1>2,558</h1>
                                 <h5>Usual users</h5>
                                 <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
@@ -168,9 +170,9 @@
                     </div>
                 </div>
 
-                <div class="card__about row">
-                    <div class="card__about col-12">
-                        <div class="card__about-picture col-md-6 col-sm-12 ">
+                <div class="card__about">
+                    <div class="card__about">
+                        <div class="card__about-picture">
                             <div class="card__about-picture-1">
                                 <img src="./assets/logo1.png" alt="">
                             </div>
@@ -179,7 +181,7 @@
                             </div>
                         </div>
 
-                        <div class="card__about-title col-md-6 col-sm-12">
+                        <div class="card__about-title">
                             <h1>Big Love For Our Lovely Kids</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore. Ut enim ad minim veniam, quis nostrud exercitation.</p>
@@ -190,10 +192,10 @@
                 </div>
 
                 <div class="card__team">
-                    <div class="card__team-row row">
+                    <div class="card__team-row">
                         <div class="card__team-title">Our Team</div>
-                        <div class="card__team-information col-12">
-                            <div class="card__team-1 card__team-modal col-md-3 col-sm-12">
+                        <div class="card__team-information">
+                            <div class="card__team-1 card__team-modal">
                                 <div class="card__team-avatar">
                                     <img src="./assets/avatar1.png" alt="">
                                 </div>
@@ -207,7 +209,7 @@
                                     <i class="fab fa-youtube"></i>
                                 </form>
                             </div>
-                            <div class="card__team-2 card__team-modal col-md-3 col-sm-12">
+                            <div class="card__team-2 card__team-modal">
                                 <div class="card__team-avatar">
                                     <img src="./assets/avatar2.png" alt="">
                                 </div>
@@ -221,7 +223,7 @@
                                     <i class="fab fa-youtube"></i>
                                 </form>
                             </div>
-                            <div class="card__team-3 card__team-modal col-md-3 col-sm-12">
+                            <div class="card__team-3 card__team-modal">
                                 <div class="card__team-avatar">
                                     <img src="./assets/avatar3.png" alt="">
                                 </div>
@@ -235,7 +237,7 @@
                                     <i class="fab fa-youtube"></i>
                                 </form>
                             </div>
-                            <div class="card__team-4 card__team-modal col-md-3 col-sm-12">
+                            <div class="card__team-4 card__team-modal">
                                 <div class="card__team-avatar">
                                     <img src="./assets/avatar4.png" alt="">
                                 </div>
@@ -303,12 +305,13 @@
                         </div>
                         <div class="card__email-sub col-md-6 col-sm-12 ">
                             <h1>Join our list and get 20% off your first purchase!</h1>
-                            <div class="subscribe-form">
-                                <i class="far fa-envelope"></i>
-                                <input type="email" placeholder="Enter your email" class="email-input">
-                                <button type="submit" class="subscribe-button">SUBSCRIBE</button>
+                            <div class="card__email-subform">
+                                <div class="subscribe-form">
+                                    <i class="far fa-envelope"></i>
+                                    <input type="email" placeholder="Enter your email" class="email-input">
+                                    <button type="submit" class="subscribe-button">SUBSCRIBE</button>
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

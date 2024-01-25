@@ -49,6 +49,7 @@ section {
     flex-direction: column;
     text-align: left;
     justify-content: center;
+    width: 50%;
 }
 
 .card__cta-row {
@@ -62,12 +63,7 @@ section {
 }
 
 .card__cta-content-about {
-    background-color: #E6E6EF;
-    padding: 5px 10px;
-    width: max-content;
-    border-radius: 4px;
-    display: flex;
-    align-items: flex-start;
+    width: 100%;
 }
 
 .card__cta-content-about span {
@@ -76,6 +72,12 @@ section {
     font-weight: 700;
     text-align: center;
     font-family: 'Sansita', sans-serif;
+    background-color: #E6E6EF;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .card__cta-content-profile {
@@ -107,6 +109,10 @@ section {
 
 .card__cta-content button:hover {
     background-color: #e5566d;
+}
+
+.card__cta-button {
+    width: 100%;
 }
 
 .card__cta-video {
@@ -544,6 +550,11 @@ section {
         margin-bottom: 20px;
     }
 
+    .card__cta-content-about {
+        display: flex;
+        justify-content: center;
+    }
+
     .card__page-title-about,
     .card__page-title-info {
         text-align: center;
@@ -555,6 +566,24 @@ section {
 
     .card__cta-content {
         width: 100%;
+    }
+
+    .card__cta-content-info {
+        text-align: center;
+    }
+
+    .card__cta-content-info span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .card__cta-button {
+        display: flex;
+        justify-content: center;    
+    }
+
+    .card__cta-content-profile {
+        padding: 40px
     }
 
     .card__cta-video {
@@ -656,6 +685,10 @@ section {
     .footer__section {
         width: 100%;
     }
+
+    .footer__section p i {
+       width: auto;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -672,21 +705,31 @@ section {
         text-align: center;
     }
 
-    .card__cta-row {
-        flex-direction: column;
-    }
-
     .card__cta-content {
         width: 100%;
     }
 
+    .card__cta-content-about {
+        display: flex;
+        justify-content: center;    
+    }
+
+    .card__cta-content-info {
+        text-align: center;
+    }
+
+    .card__cta-button {
+        display: flex;
+        justify-content: center;    
+    }
+
     .card__cta-video {
         width: 100%;
-        height: 50%;
+        height: unset;
     }
 
     .card__proud {
-        margin-top: unset;
+        margin-top: 10px;
     }
 
     .card__proud-title {
@@ -766,10 +809,16 @@ section {
         text-align: center;
     }
 
+    .card__email-subform {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .subcribe-form {
         margin-top: 10px;
         width: 100%;
-    text-align: center;
+        text-align: center;
     }
 
     .footer-container {
