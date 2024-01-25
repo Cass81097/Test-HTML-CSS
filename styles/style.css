@@ -360,6 +360,7 @@ section {
     color: #EC80A0;
     margin: -0.2rem 0.5rem 1.5rem 0;
     transition: 0.5s ease;
+    margin-top: 2.5px;
 }
 
 .card__attributes-icon i {
