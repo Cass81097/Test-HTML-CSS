@@ -99,7 +99,7 @@ body {
     margin-left: unset
 }
 
-.navbar-nav li:nth-child(1) a {
+.navbar-nav li:nth-child(1) .nav-link {
     padding-left: unset !important
 }
 
