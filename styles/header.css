@@ -79,6 +79,7 @@ body {
     font-weight: 800;
     font-size: 54px;
     line-height: 70px;
+    width: 45%
 }
 
 .nav-item {
@@ -89,6 +90,10 @@ body {
     padding-left: unset !important;
 }
 
+.top-header-brand-name-rp {
+    display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .form-inline {
@@ -97,5 +102,18 @@ body {
 
     .header-navbar {
         display: none;
+    }
+
+    .top-header-brand-name {
+        display: none;
+    }
+
+    .top-header-brand-name-rp {
+        display: block;
+        color: #1A1114;
+        font-family: 'Sansita', sans-serif;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 70px;
     }
 }
