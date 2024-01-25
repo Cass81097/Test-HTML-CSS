@@ -25,6 +25,7 @@ section {
 .card__page-title-info a {
     color: rgb(162, 159, 159);
     text-decoration: none;
+    margin-left: 5px;
 }
 
 .card__page-title-info a:hover {
@@ -583,7 +584,7 @@ section {
     }
 
     .card__cta-content-profile {
-        padding: 40px
+        padding: 40px 30px
     }
 
     .card__cta-video {
