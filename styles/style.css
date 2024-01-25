@@ -18,6 +18,10 @@ section {
     font-weight: 400;
 }
 
+.card__page-title-info span {
+    color: rgb(162, 159, 159);
+}
+
 .card__page-title-info a {
     color: rgb(162, 159, 159);
     text-decoration: none;
