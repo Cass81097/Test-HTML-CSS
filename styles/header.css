@@ -107,8 +107,58 @@ body {
     display: none;
 }
 
+.form-inline {
+    position: relative;
+    font-size: 24px; 
+}
+
+.icon-container {
+    position: relative;
+    display: inline-block; 
+}
+
+.badge {
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    background-color: black; 
+    color: white; 
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px; 
+    box-shadow: 0 0 0 1px black;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
+    .form-inline {
+        display: none;
+    }
+
+    .header-navbar {
+        display: none;
+    }
+
+    .top-header-brand-name {
+        display: none;
+    }
+
+    .top-header-brand-name-rp {
+        display: block;
+        color: #1A1114;
+        font-family: 'Sansita', sans-serif;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
     .form-inline {
         display: none;
     }
